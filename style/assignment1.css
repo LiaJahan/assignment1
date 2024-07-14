@@ -53,6 +53,17 @@
 /* header part end */
 
 /* main : why web-development */
+
+.background{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
 .web-title{
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
@@ -74,6 +85,21 @@ text-align: center;
 opacity: 0.7;
 }
 
+
+
 .first-layer{ 
 display: flex;
+}
+
+
+/* for target section */
+
+.target-container{
+    display: flex;
+    gap: 24px;
+}
+
+.targets{
+    padding: 30px;
+    border-radius: 5px;
 }
