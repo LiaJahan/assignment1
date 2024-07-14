@@ -3,27 +3,18 @@
 /* for header */
 
 .header{
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
-    padding: 130px 136px;
+    padding: 30px 30px;
     margin-top: auto;
-    
-
-    
 
 }
 
-.bg{
-    background-image: url(../assets/Hero-bg.png),
+.header-bg{
+    background-image: url(../assets/Hero-bg.png);
+    background-position: auto;
 }
 
-.header-image{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 
 .header-title{
     color: rgb(13, 19, 33);
@@ -59,3 +50,4 @@
 
 }
 
+/* header part end */
