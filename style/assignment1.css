@@ -7,14 +7,13 @@
     text-align: center;
     padding: 30px 30px;
     margin-top: auto;
-
 }
 
 .header-bg{
     background-image: url(../assets/Hero-bg.png);
     background-position: auto;
+    margin-bottom: 74px;
 }
-
 
 .header-title{
     color: rgb(13, 19, 33);
@@ -54,49 +53,105 @@
 
 /* main : why web-development */
 
-.background{
+
+.web-background{
+    width: 1140px;
+    height: 1395px;
+    margin: auto 152px auto 148px;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    margin: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-}
+    }
+
 .web-title{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
-line-height: 37px;
-letter-spacing: 0%;
-text-align: center;
-}
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    }
 
 .web-subtitle{
     color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    max-width: 850px;
+    margin: 50px auto;
+    }
+
+
+.box {
+    display: flex;
+    max-width: 850px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.second-box{
+    display: flex;
+    max-width: 850px;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+
+.left-section, .right-section {
+    flex: 1;
+}
+
+.left-section {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer-header{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+.layer-content{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+.layer-btn{
+color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
+font-size: 15px;
+font-weight: 600;
 opacity: 0.7;
+width: 150px;
+height: 48px;
 }
-
-
-
-.first-layer{ 
-display: flex;
-}
-
 
 /* Inspiration section */
 
 .ins-sec{
     margin: 88px 152px 151px 148px;
-    text-align: center
+    text-align: center;
 }
 
 .inspiration{
@@ -120,7 +175,6 @@ opacity: 0.7;
 }
 
 .video{
-
 width: 1140px;
 height: 614px;
 padding: 32px;
@@ -129,15 +183,10 @@ border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
 justify-content: center;
 align-items: center;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
 margin: 48px 0px;
 }
+
+
 /* for target section */
 
 .target-section{
@@ -184,7 +233,6 @@ font-family: Azeret Mono;
 font-size: 24px;
 font-weight: 800;
 line-height: 36px;
-letter-spacing: 0%;
 text-align: left;
 }
 
@@ -194,7 +242,6 @@ text-align: left;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: left;
     opacity: 0.7;
 }
@@ -205,7 +252,6 @@ font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 700;
 line-height: 19px;
-letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
 }
@@ -223,10 +269,6 @@ text-decoration-line: underline;
     margin: 49px 150px 179px;
     padding: 64px 48px;
     border-radius: 16px;    
-}
-.footer{
-    /* text-align: center; */
-
 }
 
 .footer-title{
@@ -257,19 +299,12 @@ text-align: center;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
-    background: rgb(255, 255, 255);
-    
-width: 548px;
-height: 57px;
-align-items: center;
-padding: 19px 20px 19px 20px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 16px;
+    background: rgb(255, 255, 255);    
+    width: 548px;
+    height: 57px;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
 }
 
 .footer-btn{
